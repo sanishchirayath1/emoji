@@ -35,7 +35,7 @@ h1 {
 }
 
 input {
-  margin:auto;
+  margin:auto 0;
   display: block;
   border: none;
   height: 30px;
@@ -64,3 +64,10 @@ button {
 .input-section {
   display: flex;
 }
+
+.align-right {
+  margin-right: 0;
+}
+.align-left {
+  margin-left: 0;
+ }

@@ -5,7 +5,16 @@ html {
 
 body {
   padding: 10px;
-  background-image: linear-gradient(45deg,red,orange,yellow,green,blue,indigo,violet);
+  background-image: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 }
 
 #emoji-container {
@@ -35,7 +44,7 @@ h1 {
 }
 
 input {
-  margin:auto 0;
+  margin: auto 0;
   display: block;
   border: none;
   height: 30px;
@@ -48,11 +57,11 @@ button {
   font-family: Baloo;
   letter-spacing: px;
   background: darkcyan;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
-  padding: 4px 10px;
-  border-radius: 6px;
-  margin: 0 4px;
+  padding: 0px 10px;
+  border-radius: 30px;
+  margin: 4px 4px;
   font-size: 30px;
 }
 
@@ -70,4 +79,4 @@ button {
 }
 .align-left {
   margin-left: 0;
- }
+}
